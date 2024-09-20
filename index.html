@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>reCAPTCHA Simulation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="captcha-container">
+        <form id="captcha-form" action="image_page.html" method="get">
+            <div class="checkbox-container">
+                <input type="checkbox" id="not-robot">
+                <label for="not-robot">Verify you are not a bot</label>
+                <img src="images/captcha_recaptcha.jpg" alt="reCAPTCHA logo">
+            </div>
+            <button type="submit" id="submit-btn">Send</button>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
